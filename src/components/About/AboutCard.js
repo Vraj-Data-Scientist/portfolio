@@ -50,7 +50,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body style={{ paddingTop: "0" }}>
         <blockquote className="blockquote mb-0" style={{ marginTop: "0" }}>
-          <p style={{ textAlign: "justify", fontSize: "0.9em", marginTop: "0" }}>
+          <p style={{ textAlign: "left", fontSize: "0.9em", marginTop: "0" }}>
             I am a passionate AI/ML enthusiast with a proven track record of academic excellence, including a Gold Medal in Computer Science and a Top 15% rank in the GATE Computer Science exam, one of India's most competitive national exams. I have a strong foundation in Artificial Intelligence, Machine Learning, Deep Learning, and Data Science.
             <br /><br />
             My technical expertise spans programming languages such as{" "}
