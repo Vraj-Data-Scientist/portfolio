@@ -1,0 +1,23 @@
+.project-card-img {
+    width: 100%;
+    height: 50%; 
+    object-fit: cover; 
+  }
+  
+  .project-description {
+    text-align: left; 
+    word-spacing: 2px; 
+    line-height: 1.5; 
+  }
+  
+  
+  .project-card-view {
+    margin-bottom: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .project-card-img {
+      height: 150px; 
+    }
+  }
