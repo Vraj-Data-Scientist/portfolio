@@ -93,7 +93,6 @@ function AboutCard() {
           <p style={{ textAlign: "left", fontSize: "0.9em", marginTop: "0" }}>
             I am a passionate AI/ML enthusiast with a proven track record of academic excellence, including a Gold Medal in Computer Science and a Top 15% rank in the GATE Computer Science exam, one of India's most competitive national exams. I have a strong foundation in Artificial Intelligence, Machine Learning, Deep Learning, and Data Science.
             <br /><br />
-            
           </p>
 
           {/* Education Section */}
@@ -239,7 +238,7 @@ function AboutCard() {
                   minWidth: "100%",
                 }}
               >
-                <div style={{ padding: "10px", borderLeft: "3px solid #c084f5" }}>
+                <div style={{ padding: "10px", borderLeft: "3px solid #c084f5", textAlign: "left" }}>
                   <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
                     Programming Languages
                   </h4>
@@ -264,7 +263,7 @@ function AboutCard() {
                   minWidth: "100%",
                 }}
               >
-                <div style={{ padding: "10px", borderLeft: "3px solid #c084f5" }}>
+                <div style={{ padding: "10px", borderLeft: "3px solid #c084f5", textAlign: "left" }}>
                   <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
                     Data Science & Analytics
                   </h4>
@@ -283,7 +282,7 @@ function AboutCard() {
                   minWidth: "100%",
                 }}
               >
-                <div style={{ padding: "10px", borderLeft: "3px solid #c084f5" }}>
+                <div style={{ padding: "10px", borderLeft: "3px solid #c084f5", textAlign: "left" }}>
                   <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
                     AI/ML Frameworks & Libraries
                   </h4>
@@ -314,7 +313,7 @@ function AboutCard() {
                   minWidth: "100%",
                 }}
               >
-                <div style={{ padding: "10px", borderLeft: "3px solid #c084f5" }}>
+                <div style={{ padding: "10px", borderLeft: "3px solid #c084f5", textAlign: "left" }}>
                   <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
                     Core CS
                   </h4>
@@ -326,7 +325,7 @@ function AboutCard() {
             </div>
 
             {/* Skills Navigation Dots */}
-            <div style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
+            <div style={{ display: "flex", justifyContent: "flex-start", marginTop: "10px" }}>
               {[0, 1, 2, 3].map((index) => (
                 <div
                   key={index}
