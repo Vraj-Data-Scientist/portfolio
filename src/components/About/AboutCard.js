@@ -171,46 +171,46 @@ function AboutCard() {
             </h3>
             <div style={{ padding: "15px", textAlign: "center" }}>
               <div style={{ padding: "10px", borderLeft: "3px solid #c084f5" }}>
-                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
+                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px", fontSize: "1.0em" }}>
                   Programming Languages
                 </h4>
-                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.9em" }}>
+                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.8em" }}>
                   Python, R, SQL, C, C++
                 </p>
-                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
+                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px", fontSize: "1.0em" }}>
                   Databases & Vector Stores
                 </h4>
-                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.9em" }}>
+                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.8em" }}>
                   MySQL, MongoDB, ChromaDB (Vector Search)
                 </p>
-                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
+                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px", fontSize: "1.0em" }}>
                   AI/ML Frameworks & Libraries
                 </h4>
-                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.9em" }}>
+                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.8em" }}>
                   Scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, OpenCV, spaCy, NLTK, Transformers, Hugging Face, LangChain, FastAPI, Streamlit, CUDA
                 </p>
-                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
+                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px", fontSize: "1.0em" }}>
                   MLOps & Deployment
                 </h4>
-                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.9em" }}>
+                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.8em" }}>
                   Docker, Kubernetes, CI/CD Pipelines, AWS, Azure, MLflow, Linux, Unix-based OS, Git
                 </p>
-                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
+                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px", fontSize: "1.0em" }}>
                   AI/ML Expertise
                 </h4>
-                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.9em" }}>
+                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.8em" }}>
                   Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Generative AI, LLM, RAG, Agentic Workflows, Model Fine Tuning (Transfer Learning), Model Evaluation, Prompt Engineering, Reinforcement Learning
                 </p>
-                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
+                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px", fontSize: "1.0em" }}>
                   Data Science & Analytics
                 </h4>
-                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.9em" }}>
+                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.8em" }}>
                   EDA (Numpy, Pandas, Matplotlib, Seaborn), Data Preprocessing, Feature Engineering, Hypothesis Testing, A/B Testing, Time Series Analysis, Forecasting, Big Data Technologies (Apache Spark, Hadoop), Data Visualization (Tableau, Power BI)
                 </p>
-                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
+                <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px", fontSize: "1.0em" }}>
                   Core CS
                 </h4>
-                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.9em" }}>
+                <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.8em" }}>
                   Data Structures & Algorithms, Graph Analysis, Software Engineering (System Design, Testing, OOP), API Integration (REST, GraphQL), Agile Methodologies
                 </p>
               </div>
