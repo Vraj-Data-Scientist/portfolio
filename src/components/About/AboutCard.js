@@ -71,7 +71,7 @@ function AboutCard() {
         left: scrollPosition,
         behavior: "smooth",
       });
-    }, 10000);
+    }, 7000);
 
     const handleScroll = () => {
       const newIndex = Math.round(scrollContainer.scrollLeft / clientWidth);
