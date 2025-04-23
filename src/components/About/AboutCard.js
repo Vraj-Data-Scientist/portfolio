@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Card from "react-bootstrap/Card";
-import { FaGraduationCap } from "react-icons/fa"; 
+import { FaGraduationCap, FaCode } from "react-icons/fa"; 
 
 function AboutCard() {
   const educationScrollRef = useRef(null);
@@ -93,25 +93,7 @@ function AboutCard() {
           <p style={{ textAlign: "left", fontSize: "0.9em", marginTop: "0" }}>
             I am a passionate AI/ML enthusiast with a proven track record of academic excellence, including a Gold Medal in Computer Science and a Top 15% rank in the GATE Computer Science exam, one of India's most competitive national exams. I have a strong foundation in Artificial Intelligence, Machine Learning, Deep Learning, and Data Science.
             <br /><br />
-            My technical expertise spans programming languages such as{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>Python</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>R</span>, and{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>SQL</span>, along with hands-on experience in AI/ML tools like{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>Scikit-learn</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>XGBoost</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>PyTorch</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>TensorFlow</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>Keras</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>spaCy</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>Transformers & Diffusers (Hugging Face)</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>LangChain</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>FastAPI</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>Streamlit</span>, and more. I am proficient in{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>NLP</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>Computer Vision</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>ML Ops</span>,{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>LLM</span>, and{" "}
-            <span style={{ fontStyle: "italic", color: "#c084f5" }}>GenAI</span>, applying these skills in various academic and project-based settings to solve complex problems.
+            
           </p>
 
           {/* Education Section */}
@@ -130,13 +112,14 @@ function AboutCard() {
                 WebkitOverflowScrolling: "touch", 
               }}
             >
-              <style>
-                {`
-                  div::-webkit-scrollbar {
-                    display: none;
-                  }
-                `}
-              </style>
+              <style jsx>{`
+                div {
+                  scrollbar-width: none;
+                }
+                div::-webkit-scrollbar {
+                  display: none;
+                }
+              `}</style>
 
               {/* Bachelor's Degree */}
               <div
@@ -225,6 +208,7 @@ function AboutCard() {
           {/* Skills Section */}
           <div style={{ marginTop: "30px", marginBottom: "100px" }}>
             <h3 style={{ fontSize: "1.5em", color: "#fff", display: "flex", alignItems: "center" }}>
+              <FaCode style={{ marginRight: "10px", color: "#c084f5" }} />
               <strong className="purple">Skills</strong>
             </h3>
             <div
@@ -237,13 +221,14 @@ function AboutCard() {
                 WebkitOverflowScrolling: "touch", 
               }}
             >
-              <style>
-                {`
-                  div::-webkit-scrollbar {
-                    display: none;
-                  }
-                `}
-              </style>
+              <style jsx>{`
+                div {
+                  scrollbar-width: none;
+                }
+                div::-webkit-scrollbar {
+                  display: none;
+                }
+              `}</style>
 
               {/* Skill Part 1 */}
               <div
@@ -255,13 +240,13 @@ function AboutCard() {
                 }}
               >
                 <div style={{ padding: "10px", borderLeft: "3px solid #c084f5" }}>
-                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "10px" }}>
+                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
                     Programming Languages
                   </h4>
                   <p style={{ color: "#ccc", margin: "0", fontSize: "0.9em" }}>
                     Python, R, SQL, C, C++
                   </p>
-                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginTop: "20px", marginBottom: "10px" }}>
+                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginTop: "10px", marginBottom: "5px" }}>
                     Databases & Vector Stores
                   </h4>
                   <p style={{ color: "#ccc", margin: "0", fontSize: "0.9em" }}>
@@ -280,7 +265,7 @@ function AboutCard() {
                 }}
               >
                 <div style={{ padding: "10px", borderLeft: "3px solid #c084f5" }}>
-                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "10px" }}>
+                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
                     Data Science & Analytics
                   </h4>
                   <p style={{ color: "#ccc", margin: "0", fontSize: "0.9em" }}>
@@ -299,19 +284,19 @@ function AboutCard() {
                 }}
               >
                 <div style={{ padding: "10px", borderLeft: "3px solid #c084f5" }}>
-                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "10px" }}>
+                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
                     AI/ML Frameworks & Libraries
                   </h4>
                   <p style={{ color: "#ccc", margin: "0", fontSize: "0.9em" }}>
                     Scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, OpenCV, spaCy, NLTK, Transformers, Hugging Face, LangChain, FastAPI, Streamlit, CUDA
                   </p>
-                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginTop: "20px", marginBottom: "10px" }}>
+                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginTop: "10px", marginBottom: "5px" }}>
                     MLOps & Deployment
                   </h4>
                   <p style={{ color: "#ccc", margin: "0", fontSize: "0.9em" }}>
                     Docker, Kubernetes, CI/CD Pipelines, AWS, Azure, MLflow, Linux, Unix-based OS, Git
                   </p>
-                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginTop: "20px", marginBottom: "10px" }}>
+                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginTop: "10px", marginBottom: "5px" }}>
                     AI/ML Expertise
                   </h4>
                   <p style={{ color: "#ccc", margin: "0", fontSize: "0.9em" }}>
@@ -330,7 +315,7 @@ function AboutCard() {
                 }}
               >
                 <div style={{ padding: "10px", borderLeft: "3px solid #c084f5" }}>
-                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "10px" }}>
+                  <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px" }}>
                     Core CS
                   </h4>
                   <p style={{ color: "#ccc", margin: "0", fontSize: "0.9em" }}>
