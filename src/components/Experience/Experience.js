@@ -2,7 +2,7 @@ import React from 'react';
 import ExperienceCard from './ExperienceCard';
 import './Experience.css';
 
-const Experience = () => {
+const Experience = () => { 
   const experiences = [
     {
       title: 'AI/ML Intern',
