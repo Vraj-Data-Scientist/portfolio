@@ -95,11 +95,8 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link as={Link} to="/ai" onClick={() => updateExpanded(false)}>
-                <AiFillStar style={{ marginBottom: "2px" }} /> AI
-              </Nav.Link>
-            </Nav.Item>
+           
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
