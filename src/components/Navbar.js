@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import {
   AiFillStar,
   AiOutlineHome,
