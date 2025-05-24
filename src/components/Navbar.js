@@ -73,7 +73,17 @@ function NavBar() {
                 Projects
               </Nav.Link>
             </Nav.Item>
-
+                  
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/experience"
+                onClick={() => updateExpanded(false)}
+              >
+                <BiBriefcase style={{ marginBottom: "2px" }} /> Experience
+              </Nav.Link>
+            </Nav.Item>
+                  
             <Nav.Item>
               <Nav.Link
                 as={Link}
