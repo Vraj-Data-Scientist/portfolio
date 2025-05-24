@@ -11,6 +11,7 @@ import {
 } from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 import "./NavBar.css";
+import { BiBriefcase } from "react-icons/bi";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
