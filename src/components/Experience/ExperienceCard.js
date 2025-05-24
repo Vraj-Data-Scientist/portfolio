@@ -40,6 +40,7 @@ function ExperienceCard() {
                 color: "#fff",
                 display: "flex",
                 alignItems: "center",
+                justifyContent: "center",
               }}
             >
               <FaBriefcase style={{ marginRight: "10px", color: "#c084f5" }} />
@@ -57,62 +58,51 @@ function ExperienceCard() {
                   <div
                     style={{
                       display: "flex",
-                      justifyContent: "space-between",
+                      flexDirection: "column",
                       alignItems: "center",
                       marginBottom: "10px",
-                      minHeight: "50px",
                     }}
                   >
-                    <div
+                    <h4
                       style={{
-                        textAlign: "left",
-                        width: "50%",
+                        fontSize: "0.9em",
+                        color: "#fff",
+                        margin: "5px 0",
+                        textAlign: "center",
                       }}
                     >
-                      <h4
-                        style={{
-                          fontSize: "0.9em",
-                          color: "#fff",
-                          margin: "0",
-                        }}
-                      >
-                        {exp.title}
-                      </h4>
-                      <p
-                        style={{
-                          color: "#fff",
-                          margin: "5px 0 0 0",
-                          fontSize: "0.9em",
-                        }}
-                      >
-                        {exp.company}
-                      </p>
-                    </div>
-                    <div
+                      {exp.title}
+                    </h4>
+                    <p
                       style={{
-                        textAlign: "right",
-                        width: "50%",
+                        color: "#fff",
+                        margin: "5px 0",
+                        fontSize: "0.9em",
+                        textAlign: "center",
                       }}
                     >
-                      <p
-                        style={{
-                          color: "#fff",
-                          margin: "0",
-                          fontSize: "0.9em",
-                        }}
-                      >
-                        {exp.location}
-                      </p>
-                      <p
-                        style={{
-                          color: "#fff",
-                          margin: "5px 0 0 0",
-                          fontSize: "0.9em",
-                        }}
-                      >
-                        {exp.duration}
-                      </p>
-                    </div>
+                      {exp.company}
+                    </p>
+                    <p
+                      style={{
+                        color: "#fff",
+                        margin: "5px 0",
+                        fontSize: "0.9em",
+                        textAlign: "center",
+                      }}
+                    >
+                      {exp.location}
+                    </p>
+                    <p
+                      style={{
+                        color: "#fff",
+                        margin: "5px 0",
+                        fontSize: "0.9em",
+                        textAlign: "center",
+                      }}
+                    >
+                      {exp.duration}
+                    </p>
                   </div>
                   <ul
                     style={{
