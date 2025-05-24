@@ -63,7 +63,12 @@ function ExperienceCard() {
                       minHeight: "50px",
                     }}
                   >
-                    <div style={{ textAlign: "left" }}>
+                    <div
+                      style={{
+                        textAlign: "left",
+                        width: "50%",
+                      }}
+                    >
                       <h4
                         style={{
                           fontSize: "0.9em",
@@ -83,7 +88,12 @@ function ExperienceCard() {
                         {exp.company}
                       </p>
                     </div>
-                    <div style={{ textAlign: "right" }}>
+                    <div
+                      style={{
+                        textAlign: "right",
+                        width: "50%",
+                      }}
+                    >
                       <p
                         style={{
                           color: "#fff",
@@ -128,7 +138,7 @@ function ExperienceCard() {
                       textAlign: "center",
                     }}
                   >
-                    <strong>Skills:</strong> {exp.skills.join(", ")}
+                    <strong className="purple">Skills:</strong> {exp.skills.join(", ")}
                   </p>
                 </div>
               </div>
