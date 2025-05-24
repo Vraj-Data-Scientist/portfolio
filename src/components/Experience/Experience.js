@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import ExperienceCard from "./ExperienceCard";
-import "./Experience.css";
+
 
 function Experience() {
   return (
