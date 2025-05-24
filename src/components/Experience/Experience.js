@@ -11,7 +11,7 @@ const Experience = () => {
       duration: 'Dec 2024 - Mar 2025',
       skills: [
         'PyTorch',
-        'ResNet',
+        'ResNet', 
         'Hugging Face',
         'Transformers',
         'LLMs',
