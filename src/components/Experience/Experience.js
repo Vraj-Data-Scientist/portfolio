@@ -30,7 +30,7 @@ const Experience = () => {
       domain: 'Retail',
       projectLink: 'https://dl-project-fruits-inspection-vraj-dobariya.streamlit.app/',
     },
-    // Add more experiences here if needed
+    
   ];
 
   return (
