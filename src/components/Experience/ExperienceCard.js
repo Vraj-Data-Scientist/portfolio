@@ -7,7 +7,7 @@ function ExperienceCard() {
     {
       title: "AI/Data Intern",
       company: "AtliQ Technologies Pvt. Ltd.",
-      location: "(Remote) India",
+      location: "India (Remote)",
       duration: "Dec 2024 - Mar 2025",
       skills: [
         "PyTorch",
@@ -75,7 +75,7 @@ function ExperienceCard() {
                       </h4>
                       <p
                         style={{
-                          color: "#ccc",
+                          color: "#fff",
                           margin: "5px 0 0 0",
                           fontSize: "0.9em",
                         }}
@@ -86,18 +86,18 @@ function ExperienceCard() {
                     <div style={{ textAlign: "right" }}>
                       <p
                         style={{
-                          color: "#aaa",
+                          color: "#fff",
                           margin: "0",
-                          fontSize: "0.8em",
+                          fontSize: "0.9em",
                         }}
                       >
                         {exp.location}
                       </p>
                       <p
                         style={{
-                          color: "#aaa",
+                          color: "#fff",
                           margin: "5px 0 0 0",
-                          fontSize: "0.8em",
+                          fontSize: "0.9em",
                         }}
                       >
                         {exp.duration}
@@ -107,7 +107,7 @@ function ExperienceCard() {
                   <ul
                     style={{
                       color: "#ccc",
-                      margin: "15px 0 10px 0",
+                      margin: "15px 0 20px 0",
                       paddingLeft: "20px",
                       fontSize: "0.8em",
                       listStyleType: "disc",
@@ -123,7 +123,7 @@ function ExperienceCard() {
                   <p
                     style={{
                       color: "#ccc",
-                      margin: "10px 0",
+                      margin: "20px 0 10px 0",
                       fontSize: "0.8em",
                       textAlign: "center",
                     }}
