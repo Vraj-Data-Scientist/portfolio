@@ -3,7 +3,6 @@ import { Container, Row } from "react-bootstrap";
 import Particle from "../Particle";
 import ExperienceCard from "./ExperienceCard";
 
-
 function Experience() {
   return (
     <Container fluid className="about-section">
