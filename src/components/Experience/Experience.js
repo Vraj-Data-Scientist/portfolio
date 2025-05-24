@@ -8,7 +8,7 @@ function Experience() {
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", padding: "50px" }}>
+        <Row style={{ justifyContent: "center", padding: "5px" }}>
           <ExperienceCard />
         </Row>
       </Container>
