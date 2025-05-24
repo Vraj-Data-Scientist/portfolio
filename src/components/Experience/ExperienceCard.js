@@ -1,50 +1,8 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import Card from "react-bootstrap/Card";
 import { FaBriefcase } from "react-icons/fa";
 
 function ExperienceCard() {
-  const experienceScrollRef = useRef(null);
-  const [activeExperienceIndex, setActiveExperienceIndex] = useState(0);
-
-  // Experience Scroll Effect
-  useEffect(() => {
-    const scrollContainer = experienceScrollRef.current;
-    if (!scrollContainer) return;
-
-    const scrollWidth = scrollContainer.scrollWidth;
-    const clientWidth = scrollContainer.clientWidth;
-    const maxScroll = scrollWidth - clientWidth;
-
-    let scrollPosition = 0;
-    const scrollStep = clientWidth;
-
-    const scrollInterval = setInterval(() => {
-      scrollPosition += scrollStep;
-      if (scrollPosition > maxScroll) {
-        scrollPosition = 0;
-        setActiveExperienceIndex(0);
-      } else {
-        setActiveExperienceIndex(1);
-      }
-      scrollContainer.scrollTo({
-        left: scrollPosition,
-        behavior: "smooth",
-      });
-    }, 7000);
-
-    const handleScroll = () => {
-      const newIndex = Math.round(scrollContainer.scrollLeft / clientWidth);
-      setActiveExperienceIndex(newIndex);
-    };
-
-    scrollContainer.addEventListener("scroll", handleScroll);
-
-    return () => {
-      clearInterval(scrollInterval);
-      scrollContainer.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
   const experiences = [
     {
       title: "AI/Data Intern",
@@ -69,14 +27,13 @@ function ExperienceCard() {
         "Collaborated on a Streamlit-based healthcare AI tool, enhancing LLaMA 3 with RAG and retrieving PubMed data to deliver fast, evidence-based intermittent fasting insights for clinicians, improving decision-making efficiency.",
       ],
     },
-    // Add more experiences here in the future
   ];
 
   return (
     <Card className="quote-card-view">
       <Card.Body style={{ paddingTop: "0" }}>
         <blockquote className="blockquote mb-0" style={{ marginTop: "0" }}>
-          <div style={{ marginTop: "30px", marginBottom: "100px" }}>
+          <div style={{ marginTop: "30px", marginBottom: "100px", paddingBottom: "50vh" }}>
             <h3
               style={{
                 fontSize: "1.5em",
@@ -88,139 +45,94 @@ function ExperienceCard() {
               <FaBriefcase style={{ marginRight: "10px", color: "#c084f5" }} />
               <strong className="purple">Professional Experience</strong>
             </h3>
-            <div
-              ref={experienceScrollRef}
-              style={{
-                display: "flex",
-                overflowX: "auto",
-                scrollSnapType: "x mandatory",
-                scrollbarWidth: "none",
-                WebkitOverflowScrolling: "touch",
-              }}
-            >
-              <style jsx>{`
-                div {
-                  scrollbar-width: none;
-                }
-                div::-webkit-scrollbar {
-                  display: none;
-                }
-              `}</style>
-
-              {experiences.map((exp, index) => (
-                <div
-                  key={index}
-                  style={{
-                    flex: "0 0 100%",
-                    scrollSnapAlign: "start",
-                    padding: "15px",
-                    minWidth: "100%",
-                  }}
-                >
-                  <div style={{ padding: "10px", borderLeft: "3px solid #c084f5" }}>
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "flex-start",
-                        marginBottom: "5px",
-                      }}
-                    >
-                      <div style={{ textAlign: "left" }}>
-                        <h4
-                          style={{
-                            fontSize: "1.2em",
-                            color: "#fff",
-                            margin: "0",
-                          }}
-                        >
-                          {exp.title}
-                        </h4>
-                        <p
-                          style={{
-                            color: "#ccc",
-                            margin: "5px 0 0 0",
-                            fontSize: "0.9em",
-                          }}
-                        >
-                          {exp.company}
-                        </p>
-                      </div>
-                      <div style={{ textAlign: "right" }}>
-                        <p
-                          style={{
-                            color: "#aaa",
-                            margin: "0",
-                            fontSize: "0.8em",
-                          }}
-                        >
-                          {exp.location}
-                        </p>
-                        <p
-                          style={{
-                            color: "#aaa",
-                            margin: "5px 0 0 0",
-                            fontSize: "0.8em",
-                          }}
-                        >
-                          {exp.duration}
-                        </p>
-                      </div>
+            {experiences.map((exp, index) => (
+              <div
+                key={index}
+                style={{
+                  padding: "15px",
+                  minWidth: "100%",
+                }}
+              >
+                <div style={{ padding: "10px", borderLeft: "3px solid #c084f5" }}>
+                  <div
+                    style={{
+                      display: "flex",
+                      justifyContent: "space-between",
+                      alignItems: "center",
+                      marginBottom: "10px",
+                      minHeight: "50px",
+                    }}
+                  >
+                    <div style={{ textAlign: "left" }}>
+                      <h4
+                        style={{
+                          fontSize: "0.9em",
+                          color: "#fff",
+                          margin: "0",
+                        }}
+                      >
+                        {exp.title}
+                      </h4>
+                      <p
+                        style={{
+                          color: "#ccc",
+                          margin: "5px 0 0 0",
+                          fontSize: "0.9em",
+                        }}
+                      >
+                        {exp.company}
+                      </p>
                     </div>
-                    <ul
-                      style={{
-                        color: "#ccc",
-                        margin: "15px 0 10px 0",
-                        paddingLeft: "20px",
-                        fontSize: "0.8em",
-                        listStyleType: "disc",
-                        wordSpacing: "2px",
-                        lineHeight: "1.5",
-                        textAlign: "left",
-                      }}
-                    >
-                      {exp.description.map((point, pointIndex) => (
-                        <li key={pointIndex}>{point}</li>
-                      ))}
-                    </ul>
-                    <p
-                      style={{
-                        color: "#ccc",
-                        margin: "10px 0",
-                        fontSize: "0.8em",
-                        textAlign: "left",
-                      }}
-                    >
-                      <strong>Skills:</strong> {exp.skills.join(", ")}
-                    </p>
+                    <div style={{ textAlign: "right" }}>
+                      <p
+                        style={{
+                          color: "#aaa",
+                          margin: "0",
+                          fontSize: "0.8em",
+                        }}
+                      >
+                        {exp.location}
+                      </p>
+                      <p
+                        style={{
+                          color: "#aaa",
+                          margin: "5px 0 0 0",
+                          fontSize: "0.8em",
+                        }}
+                      >
+                        {exp.duration}
+                      </p>
+                    </div>
                   </div>
+                  <ul
+                    style={{
+                      color: "#ccc",
+                      margin: "15px 0 10px 0",
+                      paddingLeft: "20px",
+                      fontSize: "0.8em",
+                      listStyleType: "disc",
+                      wordSpacing: "2px",
+                      lineHeight: "1.5",
+                      textAlign: "left",
+                    }}
+                  >
+                    {exp.description.map((point, pointIndex) => (
+                      <li key={pointIndex}>{point}</li>
+                    ))}
+                  </ul>
+                  <p
+                    style={{
+                      color: "#ccc",
+                      margin: "10px 0",
+                      fontSize: "0.8em",
+                      textAlign: "center",
+                    }}
+                  >
+                    <strong>Skills:</strong> {exp.skills.join(", ")}
+                  </p>
                 </div>
-              ))}
-            </div>
-
-            {/* Experience Navigation Dots */}
-            <div style={{ display: "flex", justifyContent: "center", marginTop: "10px" }}>
-              {experiences.map((_, index) => (
-                <div
-                  key={index}
-                  style={{
-                    width: "10px",
-                    height: "10px",
-                    borderRadius: "50%",
-                    backgroundColor: activeExperienceIndex === index ? "#c084f5" : "#666",
-                    margin: "0 5px",
-                    cursor: "pointer",
-                  }}
-                  onClick={() => {
-                    experienceScrollRef.current.scrollTo({
-                      left: index * experienceScrollRef.current.clientWidth,
-                      behavior: "smooth",
-                    });
-                    setActiveExperienceIndex(index);
-                  }}
-                />
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
         </blockquote>
       </Card.Body>
