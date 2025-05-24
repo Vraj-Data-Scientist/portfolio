@@ -70,11 +70,10 @@ function ExperienceCard() {
         "Spearheaded preprocessing of 16,000 fruit images and tuned a ResNet50 CNN, showcasing analytical skills to cut processing time by 30% and boost accuracy from 69.44% to 99.85%, earning recognition for impactful internship growth.",
         "Collaborated on a Streamlit-based healthcare AI tool, enhancing LLaMA 3 with RAG and retrieving PubMed data to deliver fast, evidence-based intermittent fasting insights for clinicians, improving decision-making efficiency.",
       ],
-      projectTitle: "Freshness Inspection",
-      domain: "Retail",
-      projectLink: "https://dl-project-fruits-inspection-vraj-dobariya.streamlit.app/",
+     
+      workLink: "https://dl-project-fruits-inspection-vraj-dobariya.streamlit.app/",
     },
-    // Add more experiences here in the future
+    
   ];
 
   return (
@@ -177,7 +176,7 @@ function ExperienceCard() {
                     </p>
                     <Button
                       variant="primary"
-                      href={exp.projectLink}
+                      href={exp.workLink}
                       target="_blank"
                       style={{ fontSize: "0.8em" }}
                     >
