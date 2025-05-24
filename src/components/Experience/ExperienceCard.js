@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import { FaBriefcase } from "react-icons/fa";
 import { CgWebsite } from "react-icons/cg";
-import "./ExperienceCard.css";
+
 
 function ExperienceCard() {
   const experience = {
