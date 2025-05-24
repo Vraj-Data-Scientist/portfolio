@@ -67,7 +67,7 @@ function ExperienceCard() {
                       style={{
                         fontSize: "0.9em",
                         color: "#fff",
-                        margin: "5px 0",
+                        margin: "2px 0",
                         textAlign: "center",
                       }}
                     >
@@ -76,7 +76,7 @@ function ExperienceCard() {
                     <p
                       style={{
                         color: "#fff",
-                        margin: "5px 0",
+                        margin: "2px 0",
                         fontSize: "0.9em",
                         textAlign: "center",
                       }}
@@ -86,7 +86,7 @@ function ExperienceCard() {
                     <p
                       style={{
                         color: "#fff",
-                        margin: "5px 0",
+                        margin: "2px 0",
                         fontSize: "0.9em",
                         textAlign: "center",
                       }}
@@ -96,7 +96,7 @@ function ExperienceCard() {
                     <p
                       style={{
                         color: "#fff",
-                        margin: "5px 0",
+                        margin: "2px 0",
                         fontSize: "0.9em",
                         textAlign: "center",
                       }}
