@@ -40,7 +40,7 @@ function ExperienceCard() {
                 color: "#fff",
                 display: "flex",
                 alignItems: "center",
-                justifyContent: "center",
+                justifyContent: "flex-start",
               }}
             >
               <FaBriefcase style={{ marginRight: "10px", color: "#c084f5" }} />
