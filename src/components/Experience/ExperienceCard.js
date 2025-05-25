@@ -66,7 +66,7 @@ function ExperienceCard() {
                     <h4
                       style={{
                         fontSize: "0.9em",
-                        color: "#fff",
+                        color: "#c084f5",
                         margin: "2px 0",
                         textAlign: "center",
                       }}
@@ -75,7 +75,7 @@ function ExperienceCard() {
                     </h4>
                     <p
                       style={{
-                        color: "#fff",
+                        color: "#c084f5",
                         margin: "2px 0",
                         fontSize: "0.9em",
                         textAlign: "center",
