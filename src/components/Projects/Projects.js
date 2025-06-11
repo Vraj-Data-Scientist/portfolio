@@ -158,7 +158,7 @@ function Projects() {
               title="Fraud Detection Model for Transaction Data"
               description="Developed a fraud detection system on 99.83% imbalanced data using SMOTE and under-sampling, achieving 94.45% accuracy and 0.977 ROC-AUC with Logistic Regression and TensorFlow NN (98.8% accuracy); optimized with GridSearchCV, t-SNE/PCA, and IQR for robust rare fraud detection."
               skills="Python, Scikit-learn, Pandas, NumPy, SMOTE, Cross-Validation, Data Preprocessing"
-              ghLink="https://github.com/YourUsername/fraud-detection-model-for-transaction-data"
+              ghLink="https://github.com/Vraj-Data-Scientist/fraud-detection-model-for-transaction-data"
             />
           </Col>
 
