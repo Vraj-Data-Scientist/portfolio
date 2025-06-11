@@ -8,7 +8,7 @@ function ExperienceCard() {
       title: "AI/Data Intern",
       company: "AtliQ Technologies Pvt. Ltd.",
       location: "India (Remote)",
-      duration: "Dec 2024 - Mar 2025",
+      duration: "Dec 2024 - May 2025",
       skills: [
         "XGBoost",
         "Flask API",
