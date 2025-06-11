@@ -50,7 +50,7 @@ function AboutCard() {
       <Card.Body style={{ paddingTop: "0" }}>
         <blockquote className="blockquote mb-0" style={{ marginTop: "0" }}>
           <p style={{ textAlign: "left", fontSize: "0.9em", marginTop: "0" }}>
-            I am a passionate AI/ML enthusiast with a proven track record of academic excellence, including a Gold Medal in Computer Science and a Top 15% rank in the GATE Computer Science exam, one of India's most competitive national exams. I have a strong foundation in Artificial Intelligence, Machine Learning, Deep Learning, and Data Science.
+            I am a passionate AI/Data enthusiast with a proven track record of academic excellence, including a Gold Medal in Computer Science and a Top 15% rank in the GATE Computer Science exam, one of India's most competitive national exams. I have a strong foundation in Artificial Intelligence, Machine Learning, Deep Learning, and Data Science.
             <br /><br />
           </p>
 
@@ -187,7 +187,7 @@ function AboutCard() {
                   AI/ML Frameworks & Libraries
                 </h4>
                 <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.8em" }}>
-                  Scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, OpenCV, spaCy, NLTK, Transformers, Hugging Face, LangChain, FastAPI, Streamlit, CUDA
+                  Scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, Statsmodels, SciPy, Prophet, pmdarima, Flask API OpenCV, spaCy, NLTK, Transformers, Hugging Face, LangChain, FastAPI, Streamlit, CUDA
                 </p>
                 <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px", fontSize: "1.0em" }}>
                   MLOps & Deployment
