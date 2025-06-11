@@ -9,14 +9,14 @@ import projImg3 from "../../Assets/Projects/3.png";
 import projImg4 from "../../Assets/Projects/4.gif";
 import projImg5 from "../../Assets/Projects/5.jpg";
 import projImg6 from "../../Assets/Projects/6.jpg";
-// import projImg7 from "../../Assets/Projects/7.png"; // Placeholder for Telecom Customer Churn Prediction
-// import projImg8 from "../../Assets/Projects/8.png"; // Placeholder for Predicting Hospital Readmission
-// import projImg9 from "../../Assets/Projects/9.png"; // Placeholder for Medical Text Analysis
-// import projImg10 from "../../Assets/Projects/10.png"; // Placeholder for A/B Testing for Drug Marketing
-// import projImg11 from "../../Assets/Projects/11.png"; // Placeholder for Customer Segmentation
-// import projImg12 from "../../Assets/Projects/12.png"; // Placeholder for Fraud Detection Model
-// import projImg13 from "../../Assets/Projects/13.png"; // Placeholder for Auto Loan Delinquency Forecasting
-// import projImg14 from "../../Assets/Projects/14.png"; // Placeholder for Real-Time Fraud Alert System
+import projImg7 from "../../Assets/Projects/7.png"; // Placeholder for Telecom Customer Churn Prediction
+import projImg8 from "../../Assets/Projects/8.png"; // Placeholder for Predicting Hospital Readmission
+import projImg9 from "../../Assets/Projects/9.png"; // Placeholder for Medical Text Analysis
+import projImg10 from "../../Assets/Projects/10.png"; // Placeholder for A/B Testing for Drug Marketing
+import projImg11 from "../../Assets/Projects/11.png"; // Placeholder for Customer Segmentation
+import projImg12 from "../../Assets/Projects/12.png"; // Placeholder for Fraud Detection Model
+import projImg13 from "../../Assets/Projects/13.png"; // Placeholder for Auto Loan Delinquency Forecasting
+import projImg14 from "../../Assets/Projects/14.png"; // Placeholder for Real-Time Fraud Alert System
 
 function Projects() {
   return (
