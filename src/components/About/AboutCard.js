@@ -187,7 +187,7 @@ function AboutCard() {
                   AI/ML Frameworks & Libraries
                 </h4>
                 <p style={{ color: "#ccc", margin: "0 0 15px 0", fontSize: "0.8em" }}>
-                  Scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, Statsmodels, SciPy, Prophet, pmdarima, Flask API OpenCV, spaCy, NLTK, Transformers, Hugging Face, LangChain, FastAPI, Streamlit, CUDA
+                  Scikit-learn, XGBoost, PyTorch, TensorFlow, Keras, Statsmodels, SciPy, Prophet, pmdarima, Flask API, OpenCV, spaCy, NLTK, Transformers, Hugging Face, LangChain, FastAPI, Streamlit, CUDA
                 </p>
                 <h4 style={{ fontStyle: "italic", color: "#c084f5", marginBottom: "5px", fontSize: "1.0em" }}>
                   MLOps & Deployment
