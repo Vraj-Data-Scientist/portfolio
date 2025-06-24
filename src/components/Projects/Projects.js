@@ -143,7 +143,7 @@ function Projects() {
 
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath11}
+              imgPath={imgPath11}
               isBlog={false}
               title="Customer Segmentation for Auto Finance Marketing"
               description="Built a K-Means model on 1M+ transactions using RFM analysis (k=5 via elbow method), boosting campaign precision by 35%; engineered 6 scaled features with IQR capping and PCA, reducing design time by 40% and improving interpretability by 25% with SQL/SAS."
