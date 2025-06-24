@@ -9,14 +9,15 @@ import projImg3 from "../../Assets/Projects/3.png";
 import projImg4 from "../../Assets/Projects/4.gif";
 import projImg5 from "../../Assets/Projects/5.jpg";
 import projImg6 from "../../Assets/Projects/6.jpg";
-import projImg7 from "../../Assets/Projects/7.png"; // Placeholder for Telecom Customer Churn Prediction
-import projImg8 from "../../Assets/Projects/8.png"; // Placeholder for Predicting Hospital Readmission
-import projImg9 from "../../Assets/Projects/9.png"; // Placeholder for Medical Text Analysis
-import projImg10 from "../../Assets/Projects/10.png"; // Placeholder for A/B Testing for Drug Marketing
-import projImg11 from "../../Assets/Projects/11.png"; // Placeholder for Customer Segmentation
-import projImg12 from "../../Assets/Projects/12.png"; // Placeholder for Fraud Detection Model
-import projImg13 from "../../Assets/Projects/13.png"; // Placeholder for Auto Loan Delinquency Forecasting
-import projImg14 from "../../Assets/Projects/14.png"; // Placeholder for Real-Time Fraud Alert System
+import projImg7 from "../../Assets/Projects/7.png";
+import projImg8 from "../../Assets/Projects/8.png";
+import projImg9 from "../../Assets/Projects/9.png";
+import projImg10 from "../../Assets/Projects/10.png";
+import projImg11 from "../../Assets/Projects/11.png";
+import projImg12 from "../../Assets/Projects/12.png";
+import projImg13 from "../../Assets/Projects/13.png";
+import projImg14 from "../../Assets/Projects/14.png";
+import projImg15 from "../../Assets/Projects/15.png";
 
 function Projects() {
   return (
@@ -142,7 +143,7 @@ function Projects() {
 
           <Col md={6} className="project-card">
             <ProjectCard
-              imgPath={projImg11}
+              imgPath11}
               isBlog={false}
               title="Customer Segmentation for Auto Finance Marketing"
               description="Built a K-Means model on 1M+ transactions using RFM analysis (k=5 via elbow method), boosting campaign precision by 35%; engineered 6 scaled features with IQR capping and PCA, reducing design time by 40% and improving interpretability by 25% with SQL/SAS."
@@ -181,6 +182,17 @@ function Projects() {
               description="Built an XGBoost fraud detection model on 99.7% imbalanced data, achieving 0.9926 AUPRC and detecting 50% zero-balance fraud with errorBalance features; deployed Flask API on AWS EC2 for real-time prediction, validated with samples, and visualized fraud via 3D plots and heatmaps."
               skills="XGBoost, Pandas, NumPy, Flask API, AWS EC2, Feature Engineering, Matplotlib, Seaborn"
               ghLink="https://github.com/Vraj-Data-Scientist/real-time-fraud-alert-system"
+            />
+          </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={projImg15}
+              isBlog={false}
+              title="Customer Churn Prediction Model for Banking"
+              description="Built an ANN model on a challenging 10,000-row dataset with 20.37% imbalance and low signal (MI=0.074), achieving 75.90% recall and industry-standard F1-score using SMOTETomek and nine selected features, boosting retention by 25%. Evaluated Logistic Julio, XGBoost with GridSearchCV (6480 combinations) and threshold tuning, leveraging unique feature interactions to achieve robust performance on sparse, feature-limited data."
+              skills="Python, Scikit-learn, TensorFlow, XGBoost, SMOTETomek, Feature Engineering, EDA, Data Preprocessing"
+              ghLink="https://github.com/Vraj-Data-Scientist/customer-churn-prediction-in-banking"
             />
           </Col>
         </Row>
