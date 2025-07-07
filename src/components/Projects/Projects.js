@@ -18,6 +18,7 @@ import projImg12 from "../../Assets/Projects/12.png";
 import projImg13 from "../../Assets/Projects/13.png";
 import projImg14 from "../../Assets/Projects/14.png";
 import projImg15 from "../../Assets/Projects/15.png";
+import projImg16 from "../../Assets/Projects/16.png";
 
 function Projects() {
   return (
@@ -195,6 +196,20 @@ function Projects() {
               ghLink="https://github.com/Vraj-Data-Scientist/customer-churn-prediction-in-banking"
             />
           </Col>
+
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={projImg16}
+              isBlog={false}
+              title="Personalized Product Recommendation System"
+              description="Developed an LSTM and Bidirectional LSTM recommender system on Retailrocket data, achieving 85.35% Precision@5 and Recall@5 with dual item-category inputs, improving personalization by 20% over baselines. Optimized model with robust preprocessing, IQR outlier detection, tokenization, and a Streamlit app with caching, enabling interactive visualizations and enhancing user engagement and recommendation efficiency."
+              skills="Python, TensorFlow, Keras, Tokenization, LSTM, Bidirectional RNN, Streamlit"
+              ghLink="https://github.com/Vraj-Data-Scientist/product-recommendation-system-using-LSTM"
+              demoLink="https://items-recommendation-system-using-lstm-vraj-dobariya.streamlit.app"
+            />
+          </Col>
+
+                
         </Row>
       </Container>
     </Container>
