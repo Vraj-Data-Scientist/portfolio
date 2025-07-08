@@ -20,7 +20,7 @@ function ExperienceCard() {
         "Teamwork",
       ],
       description: [
-        "Led a cross-functional team engaging stakeholders across healthcare, fraud detection, and generative AI domains to align solutions with business goals, driving communication that expedited delivery and improved domain impact.",
+        "Collaborated with a cross-functional team engaging stakeholders across healthcare, fraud detection, and generative AI domains to align solutions with business goals, driving communication that expedited delivery and improved domain impact.",
         "Developed an XGBoost model for diabetic readmission prediction, achieving 0.859 ROC-AUC using ADASYN and GridSearchCV, deploying a Flask API with Docker to cut EHR integration time 40% and boost hospital efficiency 25%.",
         "Engineered a real-time fraud alert system leveraging XGBoost on 99.7% imbalanced data, capturing fraud cases with 0.9926 AUPRC, deploying low-latency Flask API on AWS EC2, validated via transaction simulations.",
         "Built an intelligent chatbot using Retrieval-Augmented Generation with LLaMA 3.3 and ChromaDB, increasing user engagement 60% and revenue potential 40%, integrating semantic routing and real-time SQL queries to optimize response times and experience.",
