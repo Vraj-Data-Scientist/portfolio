@@ -118,7 +118,7 @@ function AboutCard() {
                     California State University - East Bay, California
                   </p>
                   <p style={{ color: "#aaa", margin: "0", fontSize: "0.8em" }}>
-                    2025 (Present)
+                    2024 - 2026
                   </p>
                 </div>
               </div>
