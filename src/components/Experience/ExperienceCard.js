@@ -5,6 +5,32 @@ import { FaBriefcase } from "react-icons/fa";
 function ExperienceCard() {
   const experiences = [
     {
+      title: "Data Scientist",
+      company: "SAMP Technologies LLP",
+      location: "Surat, India",
+      duration: "Jan 2022 - Jan 2024",
+      skills: [
+        "Scikit-learn",
+        "K-Means",
+        "XGBoost",
+        "SMOTE",
+        "Optuna",
+        "FastAPI",
+        "Docker",
+        "SQL",
+        "A/B Testing",
+        "T-Test",
+        "ANOVA",
+        "Teamwork",
+      ],
+      description: [
+        "Collaborated with business stakeholders and cross-functional teams to identify analytical opportunities, translate requirements into scalable data science solutions, and drive data-informed decision-making to improve operational efficiency.",
+        "Developed a Logistic Regression credit risk model, achieving 94% recall using SMOTE-Tomek and Optuna; reduced false negatives by 15%, generated scalable credit scores, and deployed a FastAPI service with Docker.",
+        "Built a K-Means model on 1M+ transactions using RFM analysis, boosting campaign precision by 35%; engineered 6 scaled features with IQR capping and PCA, reducing design time by 40% and improving interpretability by 25% with SQL/SAS.",
+        "Built an A/B testing pipeline for 65+ prescription campaigns, achieving 1.52 odds ratio (P=0.0092) via t-tests/ANOVA; engineered features with IQR filtering and Snowflake-ready code, cutting decision uncertainty by 30% and boosting interpretability by 20%.",
+      ],
+    },
+    {
       title: "AI/Data Intern",
       company: "AtliQ Technologies Pvt. Ltd.",
       location: "India (Remote)",
@@ -45,6 +71,7 @@ function ExperienceCard() {
               <FaBriefcase style={{ marginRight: "10px", color: "#c084f5" }} />
               <strong className="purple">Professional Experience</strong>
             </h3>
+
             {experiences.map((exp, index) => (
               <div
                 key={index}
@@ -103,6 +130,7 @@ function ExperienceCard() {
                       {exp.duration}
                     </p>
                   </div>
+
                   <ul
                     style={{
                       color: "#ccc",
@@ -119,6 +147,7 @@ function ExperienceCard() {
                       <li key={pointIndex}>{point}</li>
                     ))}
                   </ul>
+
                   <p
                     style={{
                       color: "#ccc",
