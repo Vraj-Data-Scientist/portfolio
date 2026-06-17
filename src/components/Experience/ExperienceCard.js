@@ -5,6 +5,28 @@ import { FaBriefcase } from "react-icons/fa";
 function ExperienceCard() {
   const experiences = [
     {
+      title: "AI/Data Intern",
+      company: "AtliQ Technologies Pvt. Ltd.",
+      location: "India (Remote)",
+      duration: "Dec 2024 - May 2025",
+      skills: [
+        "XGBoost",
+        "Flask API",
+        "Docker",
+        "AWS EC2",
+        "LLMs",
+        "RAG",
+        "Streamlit",
+        "Teamwork",
+      ],
+      description: [
+        "Collaborated with a cross-functional team engaging stakeholders across healthcare, fraud detection, and generative AI domains to align solutions with business goals, driving communication that expedited delivery and improved domain impact.",
+        "Developed an XGBoost model for diabetic readmission prediction, achieving 0.859 ROC-AUC using ADASYN and GridSearchCV, deploying a Flask API with Docker to cut EHR integration time 40% and boost hospital efficiency 25%.",
+        "Engineered a real-time fraud alert system leveraging XGBoost on 99.7% imbalanced data, capturing fraud cases with 0.9926 AUPRC, deploying low-latency Flask API on AWS EC2, validated via transaction simulations.",
+        "Built an intelligent chatbot using Retrieval-Augmented Generation with LLaMA 3.3 and ChromaDB, increasing user engagement 60% and revenue potential 40%, integrating semantic routing and real-time SQL queries to optimize response times and experience.",
+      ],
+    },
+    {
       title: "Data Scientist",
       company: "SAMP Technologies LLP",
       location: "Surat, India",
@@ -28,28 +50,6 @@ function ExperienceCard() {
         "Developed a Logistic Regression credit risk model, achieving 94% recall using SMOTE-Tomek and Optuna; reduced false negatives by 15%, generated scalable credit scores, and deployed a FastAPI service with Docker.",
         "Built a K-Means model on 1M+ transactions using RFM analysis, boosting campaign precision by 35%; engineered 6 scaled features with IQR capping and PCA, reducing design time by 40% and improving interpretability by 25% with SQL/SAS.",
         "Built an A/B testing pipeline for 65+ prescription campaigns, achieving 1.52 odds ratio (P=0.0092) via t-tests/ANOVA; engineered features with IQR filtering and Snowflake-ready code, cutting decision uncertainty by 30% and boosting interpretability by 20%.",
-      ],
-    },
-    {
-      title: "AI/Data Intern",
-      company: "AtliQ Technologies Pvt. Ltd.",
-      location: "India (Remote)",
-      duration: "Dec 2024 - May 2025",
-      skills: [
-        "XGBoost",
-        "Flask API",
-        "Docker",
-        "AWS EC2",
-        "LLMs",
-        "RAG",
-        "Streamlit",
-        "Teamwork",
-      ],
-      description: [
-        "Collaborated with a cross-functional team engaging stakeholders across healthcare, fraud detection, and generative AI domains to align solutions with business goals, driving communication that expedited delivery and improved domain impact.",
-        "Developed an XGBoost model for diabetic readmission prediction, achieving 0.859 ROC-AUC using ADASYN and GridSearchCV, deploying a Flask API with Docker to cut EHR integration time 40% and boost hospital efficiency 25%.",
-        "Engineered a real-time fraud alert system leveraging XGBoost on 99.7% imbalanced data, capturing fraud cases with 0.9926 AUPRC, deploying low-latency Flask API on AWS EC2, validated via transaction simulations.",
-        "Built an intelligent chatbot using Retrieval-Augmented Generation with LLaMA 3.3 and ChromaDB, increasing user engagement 60% and revenue potential 40%, integrating semantic routing and real-time SQL queries to optimize response times and experience.",
       ],
     },
   ];
