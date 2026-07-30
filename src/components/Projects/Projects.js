@@ -19,6 +19,7 @@ import projImg13 from "../../Assets/Projects/13.png";
 import projImg14 from "../../Assets/Projects/14.png";
 import projImg15 from "../../Assets/Projects/15.png";
 import projImg16 from "../../Assets/Projects/16.png";
+import projImg17 from "../../Assets/Projects/17.jpeg";
 
 function Projects() {
   return (
