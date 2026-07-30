@@ -49,6 +49,17 @@ function Projects() {
               demoLink="https://real-estate-assistant-using-rag-vraj-dobariya.streamlit.app/"
             />
           </Col>
+                
+          <Col md={6} className="project-card">
+            <ProjectCard
+              imgPath={projImg17} 
+              isBlog={false}
+              title="Intelligent Onboarding Agent Using MCP and LLM"
+              description="Engineered an intelligent HR onboarding agent using the Model Context Protocol (MCP) with Claude, improving HR productivity by approximately 55% and reducing onboarding turnaround time by 45% through automated, context-aware employee workflows. Automated the complete onboarding lifecycle—including employee registration in HRMS, welcome emails, manager notifications, equipment ticket creation, and meeting scheduling—using MCP tool orchestration, significantly reducing manual coordination."
+              skills="MCP, LLM Agents, Claude MCP Client, Tool Orchestration, Workflow Automation, Prompt Engineering"
+              ghLink="https://github.com/Vraj-Data-Scientist/hr-onboarding-agent-with-MCP"
+            />
+          </Col>
 
           <Col md={6} className="project-card">
             <ProjectCard
